@@ -1,0 +1,148 @@
+# ======================================
+# Python
+# ======================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Compiled Python files
+*.so
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# ======================================
+# Pytest
+# ======================================
+.pytest_cache/
+.cache/
+
+# Coverage Reports
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+
+# Test Reports
+reports/
+test-results/
+allure-results/
+allure-report/
+
+# Logs
+logs/
+*.log
+
+# ======================================
+# Playwright
+# ======================================
+playwright-report/
+test-results/
+blob-report/
+
+# Browser binaries (if installed locally)
+ms-playwright/
+
+# Screenshots & Videos
+screenshots/
+videos/
+traces/
+*.png
+*.webm
+*.zip
+
+# ======================================
+# IDE
+# ======================================
+
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# ======================================
+# Jupyter
+# ======================================
+.ipynb_checkpoints/
+
+# ======================================
+# Environment Variables
+# ======================================
+.env
+.env.*
+!.env.example
+
+# ======================================
+# OS Files
+# ======================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ======================================
+# Temporary Files
+# ======================================
+*.tmp
+*.bak
+*.swp
+
+# ======================================
+# MyPy
+# ======================================
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Pyre
+.pyre/
+
+# Tox
+.tox/
+
+# Nox
+.nox/
+
+# ======================================
+# Poetry
+# ======================================
+poetry.lock
+
+# Uncomment if using Pipenv
+# Pipfile.lock
+
+# ======================================
+# Selenium Downloads
+# ======================================
+downloads/
+
+# ======================================
+# Secrets
+# ======================================
+*.pem
+*.key
+*.crt
+credentials.json
+secret.json
+
+# ======================================
+# Custom Project Folders (Optional)
+# Uncomment if applicable
+# ======================================
+# artifacts/
+# temp/
+# output/
